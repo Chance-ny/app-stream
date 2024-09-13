@@ -13,7 +13,8 @@ st.subheader('An example of simple data visualization')
 data = pd.DataFrame({
     'A': np.random.randn(50),
     'B': np.random.randn(50),
-    'C': np.random.randn(50)
+    'C': np.random.randn(50),
+    'D': np.random.randn(50)
 })
 
 # Display the dataframe
